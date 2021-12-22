@@ -1,0 +1,45 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 200px;
+    
+  
+    overflow:hidden;
+}
+.food-img{
+    width: 20vw;
+    height: 60vh;
+    border-radius:10px;
+}
+.food-details{
+    height:80vh;
+   
+}
+.food-name{
+  
+   
+    font-weight: 600;
+}
+.food-price{
+    color: tomato;font-weight:900
+}
+.btn-change{
+    background-color: chartreuse;
+    width: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size:20px;
+    border: none;
+    margin: 10px;
+}
+.btn-cart{
+        background-color: rgb(255, 72, 0);
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        color: white;
+       
+        border: none;
+      
+
+}
